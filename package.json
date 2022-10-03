@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@actual-app/crdt": "2.0.1",
-    "@actual-app/web": "23.7.1",
+    "@ksmithbaylor/actual-app-web": "latest",
     "bcrypt": "^5.1.0",
     "better-sqlite3": "^8.2.0",
     "body-parser": "^1.20.1",

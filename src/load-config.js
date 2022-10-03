@@ -45,8 +45,8 @@ let defaultConfig = {
   webRoot: path.join(
     projectRoot,
     'node_modules',
-    '@actual-app',
-    'web',
+    '@ksmithbaylor',
+    'actual-app-web',
     'build',
   ),
 };

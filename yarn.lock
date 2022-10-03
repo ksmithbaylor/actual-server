@@ -16,13 +16,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actual-app/web@npm:23.7.1":
-  version: 23.7.1
-  resolution: "@actual-app/web@npm:23.7.1"
-  checksum: 3b54aa469ce18d1120e21a3875a3d0b4a41f14c112d298fef1f9bdb7b370c294ce12a304d80d7d4b14d345944abef47cffdb04091046977fa6363a33c7e3486d
-  languageName: node
-  linkType: hard
-
 "@ampproject/remapping@npm:^2.1.0":
   version: 2.2.0
   resolution: "@ampproject/remapping@npm:2.2.0"
@@ -1012,6 +1005,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ksmithbaylor/actual-app-web@npm:latest":
+  version: 23.7.1-1
+  resolution: "@ksmithbaylor/actual-app-web@npm:23.7.1-1"
+  checksum: cfc4db4ae077e80b99433ebb763ba908b4d01030635ddca5b2c340e758a08cffb88d8425bea5c5f6301f66a8951ab6af113f31c9db9b24d15caefef47942256c
+  languageName: node
+  linkType: hard
+
 "@mapbox/node-pre-gyp@npm:^1.0.10":
   version: 1.0.10
   resolution: "@mapbox/node-pre-gyp@npm:1.0.10"
@@ -1556,8 +1556,8 @@ __metadata:
   resolution: "actual-sync@workspace:."
   dependencies:
     "@actual-app/crdt": 2.0.1
-    "@actual-app/web": 23.7.1
     "@babel/preset-typescript": ^7.20.2
+    "@ksmithbaylor/actual-app-web": latest
     "@types/bcrypt": ^5.0.0
     "@types/better-sqlite3": ^7.6.3
     "@types/cors": ^2.8.13
